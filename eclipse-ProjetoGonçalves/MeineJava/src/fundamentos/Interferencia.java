@@ -1,4 +1,6 @@
 package fundamentos;
+//Nao se pode alterar o valor de 
+//uma variavel alterando o seu tipo
 
 public class Interferencia {
 	 public static void main(String[] args) {
@@ -13,6 +15,11 @@ public class Interferencia {
 		 System.out.println(c);
 		 c = "Zhongguó";
 		 System.out.println(c);
+		 
+		 double d; //declarada
+		 d = 123.45; //inicializada
+		 System.out.println(d); //aplicada
+		 
 		 
 	}
 
